@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Send, Smile, Paperclip, MoreVertical } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../hooks/useAuth';
-import type { Message, ChatRoom } from '../types/chat';
+import type { Message, ChatRoom } from '../types';
 
 interface ChatWindowProps {
   roomId: string;

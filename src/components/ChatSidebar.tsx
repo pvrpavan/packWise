@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Plus, Hash, Users, Settings, LogOut, Search } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../hooks/useAuth';
-import type { ChatRoom } from '../types/chat';
+import type { ChatRoom } from '../types';
 
 interface ChatSidebarProps {
   selectedRoom: string | null;
